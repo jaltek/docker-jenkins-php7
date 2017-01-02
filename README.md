@@ -16,5 +16,5 @@ followed by
 
 
 # Thanks to
-This image is inspired by and mainly based on [iliyan-trifonov/jenkins-ci-php](https://github.com/iliyan-trifonov/)
+This image is inspired by and mainly based on [iliyan-trifonov/jenkins-ci-php](https://github.com/iliyan-trifonov/jenkins-ci-php)
 
