@@ -10,7 +10,7 @@ RUN apt-key adv --keyserver keys.gnupg.net --recv-keys 14AA40EC0831756756D7F66C4
 
 RUN export DEBIAN_FRONTEND=noninteractive; \
         apt-get update; \
-        apt-get -qq install php7.0 php7.0-cli php7.0-xsl php7.0-json php7.0-curl php7.0-sqlite php7.0-mysqlnd php7.0-xdebug php7.0-intl php7.0-mcrypt php-pear curl git ant sudo
+        apt-get -qq install php7.0 php7.0-cli php7.0-xsl php7.0-json php7.0-curl php7.0-sqlite php7.0-mysqlnd php7.0-xdebug php7.0-intl php7.0-mcrypt php7.0-mbstring php-pear curl git ant sudo
 
 RUN /usr/local/bin/install-plugins.sh checkstyle cloverphp crap4j dry htmlpublisher jdepend plot pmd violations warnings xunit git ansicolor ant
 
